@@ -1,19 +1,20 @@
 # vehicle_routing_sol
  Vehicle Routing Problem Optimization - using Genetic Algorithms
- Overview
+## Overview
 This project provides an advanced solution for the Vehicle Routing Problem (VRP) using Genetic Algorithms. By leveraging the DEAP library for evolutionary computation, the solution optimizes routing for logistics challenges. Initially, the DEAP library was explored through a maze solver before being applied to the VRP, demonstrating the adaptability of the approach.
 
-Features
-Genetic Algorithms: Utilizes DEAP for evolutionary computation to find optimal routes.
-Maze Solver Exploration: Initial experiments with genetic algorithms on maze solving before applying them to VRP.
-Standard Logistics Problem Solving: Addresses both production and distribution logistics problems.
-Fitness Evaluation: Implements a custom fitness evaluation function to enhance route efficiency and optimization.
-Visualization: Uses Matplotlib to visualize routing solutions, aiding in effective data communication and decision-making.
+##Features
+**Genetic Algorithms: Utilizes DEAP for evolutionary computation to find optimal routes.
+**Maze Solver Exploration: Initial experiments with genetic algorithms on maze solving before applying them to VRP.
+**Standard Logistics Problem Solving: Addresses both production and distribution logistics problems.
+**Fitness Evaluation: Implements a custom fitness evaluation function to enhance route efficiency and optimization.
+**Visualization: Uses Matplotlib to visualize routing solutions, aiding in effective data communication and decision-making.
 
 
-Installation
+## Installation
 To set up the project, follow these instructions:
-```git clone https://github.com/username/repository.git
+```bash
+git clone https://github.com/username/repository.git
 cd repository
 pip install -r requirements.txt
 
@@ -60,8 +61,8 @@ License
 This project is licensed under the MIT License. See LICENSE for details.
 
 References
-DEAP Library: DEAP Documentation
-Vehicle Routing Problem: VRP Overview
+DEAP Library: https://deap.readthedocs.io/
+Vehicle Routing Problem: https://en.wikipedia.org/wiki/Vehicle_routing_problem
 Contact
 For any questions or support, please contact dedeepya808@gmail.com.
 
