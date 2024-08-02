@@ -11,14 +11,14 @@ This project provides an advanced solution for the Vehicle Routing Problem (VRP)
 ##Installation
 To set up the project, follow these instructions:
 
-'''bash
+'''
 git clone https://github.com/username/repository.git
 cd repository
 pip install -r requirements.txt
 '''
 ###Usage
 Run the VRP solver with:
-'''bash
+'''
 python main.py --input data/input_file.json --output results/output_file.json
 ###Example Input Data
 '''
@@ -36,7 +36,6 @@ python main.py --input data/input_file.json --output results/output_file.json
 results/output_file.json
 
 '''json
-Copy code
 {
   "routes": [[0, 1, 2, 0], ...]
 }
@@ -49,10 +48,11 @@ main.py: Main entry point for running the solver.
 solver.py: Contains genetic algorithm implementations and optimization logic.
 fitness.py: Defines the fitness evaluation function for VRP.
 visualization.py: Handles visualization of routing solutions with Matplotlib.
+
 #Testing
 To ensure the functionality and performance of the solution, run:
 
-'''bash
+'''
 pytest tests/
 '''
 ###Contributing
