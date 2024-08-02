@@ -13,7 +13,7 @@ Visualization: Uses Matplotlib to visualize routing solutions, aiding in effecti
 
 Installation
 To set up the project, follow these instructions:
-git clone https://github.com/username/repository.git
+```git clone https://github.com/username/repository.git
 cd repository
 pip install -r requirements.txt
 
